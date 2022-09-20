@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GetBuy</title>
+    <link
+      rel="shortcut icon"
+      href="/img/favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <style>
+      body {
+        font-family: "Oxygen", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#F2F2F2]">
+    <nav class="sticky top-0 z-50 bg-[#F2F2F2] pb-4 pt-4">
+      <div class="container mx-auto flex justify-between my-5 items-center">
+        <!-- Logo -->
+        <img src="/img/logo.png" class="w-[190px] h-[48px]" alt="logo" />
+        <!-- Search Bar -->
+        <input
+          type="text"
+          placeholder="Search..."
+          class="w-[627px] h-[50px] bg-[#D9D9D9] rounded-full px-10 placeholder:text-gray-800"
+        />
+        <!-- Cart & Avatar -->
+        <div class="flex items-center space-x-7">
+         <a href="/checkout.html">
+          <div class="flex flex-col justify-center items-center">
+            <span id="no-items-cart" class="text-primaryColor">0</span>
+            <img src="/img/icons/bi_cart-check-fill.png" class="w-6 h-6" alt="icon">
+         </div>
+         </a>
+          <img src="/img/handsome-african-man-talking-phone.jpg" class="rounded-full w-12 h-12" alt="profile pic">
+        </div>
+      </div>
+    </nav>
+
+    <section>
+     <div>
+         <div class="container mx-auto bg-[#D23CA8] text-white">
+           <div class="flex justify-center items-center w-[1000] py-10 space-x-36">
+             <!-- Left Side Title + Button -->
+             <div class="w-[460px] space-y-20">
+               <div class="space-y-5">
+                 <h1 class="text-[50px] font-bold">Ladies Heels</h1>
+                 <p class="text-[23px] text-gray-100">
+                   We have the greatest heels for your next big event in stock.
+                   Taking orders right now
+                 </p>
+               </div>
+   
+               <div class="mt-10">
+                 <a
+                   href="#"
+                   class="text-black bg-white rounded-full py-4 px-14 font-bold"
+                   >Buy Now</a
+                 >
+               </div>
+             </div>
+             <!-- Right the product image -->
+             <div>
+               <img
+                 src="/img/pexels-bella-zhong-3782786-removebg-preview.png"
+                 class="w-[497px] h-[464px]"
+                 alt="heels"
+               />
+             </div>
+           </div>
+         </div>
+   
+        
+     </div>
+    </section>
+
+    <section>
+      <div class="container mx-auto">
+        <!-- Products Categories -->
+        <ul class="flex space-x-5 py-10">
+          <li>
+            <a href="#" class="text-[18px] text-black font-bold"
+              >Popular Products</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-[18px] text-gray-500 font-bold"
+              >Technology</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-[18px] text-gray-500 font-bold">Kitchen</a>
+          </li>
+          <li>
+            <a href="#" class="text-[18px] text-gray-500 font-bold">Fashion</a>
+          </li>
+          <li>
+            <a href="#" class="text-[18px] text-gray-500 font-bold">Sports</a>
+          </li>
+          <li>
+            <a href="#" class="text-[18px] text-gray-500 font-bold"
+              >Home Accessories</a
+            >
+          </li>
+        </ul>
+
+        <!-- Actual Products -->
+        <div class="space-y-10">
+          <!-- First Row -->
+          <div class="flex space-x-5">
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/shoe.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Nike Sports Shoe
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4 cursor-pointer" id="shoe-card">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/laptop.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Mac Book Pro Air
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/ladies_shoe.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Ladies Heels
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/iPhone.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Samsung SE
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="favicon.icow-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Row -->
+          <div class="flex space-x-5">
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/glasses_1.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Ladies Glasses
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/towel.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Bathing Towel
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/glasses_2.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Glasses
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/sheets.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Samsung SE
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Row -->
+          <div class="flex space-x-5">
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/radio.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Radio
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/pillow.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Bathing Towel
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4 cursor-pointer" id="bathing-towel-cart">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/guitar.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Guitar
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/perfume.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Ladies Perfume
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fourth Row -->
+          <div class="flex space-x-5">
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/Chair.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Chair
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/screen.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Apple Screen
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/sofa.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Sofa
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Card -->
+            <div class="bg-white shadow-md rounded-lg w-1/4">
+              <div class="flex flex-col px-4 py-2">
+                <img
+                  src="/img/coach.png"
+                  class="w-[200px] mx-auto"
+                  alt="product"
+                />
+                <h6 class="text-center font-bold text-xl text-gray-700">
+                  Sofa
+                </h6>
+                <p>Brand new sports shoes from china perfect for running</p>
+
+                <!-- Stars & Price -->
+                <div class="flex justify-between items-center mt-4">
+                  <!-- Stars -->
+                  <div class="flex">
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-yellow.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                    <img
+                      src="/img/star-gray.png"
+                      class="w-4 h-4"
+                      alt="star icon"
+                    />
+                  </div>
+                  <!-- Price -->
+                  <span class="text-gray-700 font-bold">MK 150, 0000</span>
+                </div>
+
+                <!-- Add to cart -->
+                <div class="flex text-primaryColor mt-8 justify-center mb-4 space-x-4">
+                  <img src="/img/icons/akar-icons_circle-plus.png" alt="icon">
+                  <span class="text-lg font-bold">Add to Cart</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-[#000] text-white mt-10">
+      <div class="container mx-auto py-10">
+        <!-- Logo -->
+        <img src="/img/logo.png"  class="w-[190px] h-[48px] mx-auto" alt="logo">
+
+        <!-- Sitemap -->
+        <div class="flex justify-between mt-10">
+          <!-- About Us -->
+          <div class="space-y-4">
+            <h2 class="text-[30px] font-bold">About Us</h2>
+            <ul class="space-y-2">
+              <li><a href="">About GetBuy.com</a></li>
+              <li><a href="">About GetBuy.com</a></li>
+            </ul>
+          </div>
+          <!-- Contact Us -->
+          <div class="space-y-4">
+            <h2 class="text-[30px] font-bold">Contact Us</h2>
+            <ul class="space-y-2">
+              <li><a href="">About GetBuy.com</a></li>
+              <li><a href="">About GetBuy.com</a></li>
+            </ul>
+          </div>
+          <!-- Terms & Conditions -->
+          <div class="space-y-4">
+            <h2 class="text-[30px] font-bold">Terms & Conditions</h2>
+            <ul class="space-y-2">
+              <li><a href="">About GetBuy.com</a></li>
+              <li><a href="">About GetBuy.com</a></li>
+            </ul>
+          </div>
+          <!-- Help -->
+          <div class="space-y-4">
+            <h2 class="text-[30px] font-bold">Help</h2>
+            <ul class="space-y-2">
+              <li><a href="">About GetBuy.com</a></li>
+              <li><a href="">About GetBuy.com</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Logos -->
+        <div class="flex space-x-16 mt-20 justify-center">
+          <img src="/img/icons/Vector.png" class="w-[30px] h-[30px]" alt="facebook icon">
+          <img src="/img/icons/twitter-fill.png" class="w-[30px] h-[30px]" alt="twitter icon">
+          <img src="/img/icons/pinterest-fill.png" class="w-[30px] h-[30px]" alt="pinterest icon">
+          <img src="/img/icons/instagram-fill.png" class="w-[30px] h-[30px]" alt="instagram icon">
+          <img src="/img/icons/discord-fill.png" class="w-[30px] h-[30px]" alt="discord icon">
+
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- External Scripts -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./dist/script.js"></script>
+  </body>
+</html>
