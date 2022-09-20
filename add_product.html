@@ -48,22 +48,22 @@
               <span class="text-white text-base">Home</span>
             </a>
 
-            <div class="flex space-x-4 items-center">
+            <a href="/add_product.html" class="flex space-x-4 items-center">
               <img
                 src="/img/icons/ant-design_plus-circle-outlined.png"
                 class="w-6 h-6"
                 alt="icon"
               />
               <span class="text-primaryColor text-base">Add Product</span>
-            </div>
-            <div class="flex space-x-4 items-center">
+            </a>
+            <a href="/sales.html" class="flex space-x-4 items-center">
               <img
                 src="/img/flat-color-icons_sales-performance.png"
                 class="w-6 h-6"
                 alt="icon"
               />
               <span class="text-white text-base">Sales</span>
-            </div>
+            </a>
             <div class="flex space-x-4 items-center">
               <img
                 src="/img/codicon_call-incoming.png"
@@ -103,33 +103,36 @@
           </div>
 
           <br /><br /><br /><br />
-          <div class="flex space-x-10">
-            <input
-              type="text"
-              placeholder="Search..."
-              class="w-1/2 h-[50px] bg-[#D9D9D9] rounded-lg px-10 placeholder:text-gray-800"
-            />
-
-            <input
-              type="text"
-              placeholder="Search..."
-              class="w-1/2 h-[50px] bg-[#D9D9D9] rounded-lg px-10 placeholder:text-gray-800"
-            />
+          <div class=" space-y-10">
+            <div class="flex space-x-10">
+              <input
+                type="text"
+                placeholder="Product Name"
+                class="w-1/2 h-[50px] bg-[#D9D9D9] rounded-md px-10 placeholder:text-black py-4"
+              />
+  
+              <input
+                type="number"
+                step="1000" min="0"
+                placeholder="Product Price"
+                class="w-1/2 h-[50px] bg-[#D9D9D9] rounded-md px-10 placeholder:text-black py-4"
+              />
+            </div>
+            <div class="flex space-x-10">
+              <input
+                type="number"
+                placeholder="Amount Available"
+                class="w-1/2 h-[50px] bg-[#D9D9D9] rounded-md px-10 placeholder:text-black py-4"
+              />
+  
+              <input
+                type="file"
+                placeholder="Search..."
+                class=" w-1/2 text-sm text-grey-500 file:mr-5 file:py-3 file:px-6 file:rounded-full file:border-0 file:text-sm file:font-medium file:bg-black file:text-white hover:file:cursor-pointer hover:file:bg-gray-600 hover:file:text-white"
+              />
+            </div>
+            <textarea class="bg-[#D9D9D9] p-4 placeholder:text-black w-full rounded-md" cols="30" rows="10" placeholder="Description"></textarea>
           </div>
-          <div class="flex space-x-10">
-            <input
-              type="text"
-              placeholder="Search..."
-              class="w-1/2 h-[50px] bg-[#D9D9D9] rounded-lg px-10 placeholder:text-gray-800"
-            />
-
-            <input
-              type="file"
-              placeholder="Search..."
-              class=" w-1/2 text-sm text-grey-500 file:mr-5 file:py-3 file:px-6 file:rounded-full file:border-0 file:text-sm file:font-medium file:bg-black file:text-white hover:file:cursor-pointer hover:file:bg-gray-600 hover:file:text-white"
-            />
-          </div>
-          <textarea class="bg-[#D9D9D9] p-4 placeholder:text-black" cols="30" rows="10" placeholder="Description"></textarea>
         </div>
       </div>
     </main>

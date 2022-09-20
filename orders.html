@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GetBuy Dashboard</title>
+    <link
+      rel="shortcut icon"
+      href="/img/favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Oxygen", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#F2F2F2]">
+    <main>
+      <div class="flex">
+        <!-- side nav -->
+        <div class="flex flex-col bg-black w-[20%]">
+          <!-- top logo image -->
+          <div class="mt-14">
+            <a href="/signin_buyer.html"
+              ><img
+                src="/img/logo_light.png"
+                class="h-[40px] mx-auto"
+                alt="logo light mode"
+            /></a>
+          </div>
+          <!-- Side nav items -->
+          <nav class="ml-20 mt-20 space-y-12 h-[100vh]">
+            <a href="/dashboard.html" class="flex space-x-4 items-center">
+              <img src="/img/icons/Vector.png" class="w-6 h-6" alt="icon" />
+              <span class="text-white text-base">Dashboard</span>
+            </a>
+            <a href="/signin_buyer.html" class="flex space-x-4 items-center">
+              <img src="/img/charm_home.png" class="w-6 h-6" alt="icon" />
+              <span class="text-white text-base">Home</span>
+            </a>
+
+            <a href="/add_product.html" class="flex space-x-4 items-center">
+              <img
+                src="/img/ant-design_plus-circle-outlined.png"
+                class="w-6 h-6"
+                alt="icon"
+              />
+              <span class="text-white text-base">Add Product</span>
+            </a>
+            <a href="/sales.html" class="flex space-x-4 items-center">
+              <img
+                src="/img/flat-color-icons_sales-performance.png"
+                class="w-6 h-6"
+                alt="icon"
+              />
+              <span class="text-white text-base">Sales</span>
+            </a>
+            <a href="/orders.html" class="flex space-x-4 items-center">
+              <img
+                src="/img/icons/codicon_call-incoming_orange.png"
+                class="w-6 h-6"
+                alt="icon"
+              />
+              <span class="text-primaryColor text-base">Orders</span>
+            </a>
+            <div class="flex space-x-4 items-center">
+              <img src="/img/bi_box-seam.png" class="w-6 h-6" alt="icon" />
+              <span class="text-white text-base">Stock</span>
+            </div>
+          </nav>
+        </div>
+
+        <!-- right side -->
+        <div class="flex flex-col w-[1400px] mx-auto mt-6 space-y-5">
+          <!-- search & notification top bar -->
+          <div class="flex justify-between">
+            <input
+              type="text"
+              placeholder="Search..."
+              class="h-[50px] bg-[#D9D9D9] rounded-full px-10 placeholder:text-gray-800"
+            />
+            <div class="flex items-center space-x-4">
+              <img
+                src="/img/akar-icons_bell.png"
+                class="h-6 w-6"
+                alt="notifications"
+              />
+              <img
+                src="/img/marcus-lewis.jpg"
+                class="w-10 h-10 rounded-full"
+                alt="profile pic"
+              />
+            </div>
+          </div>
+
+          <br /><br />
+          <div class="flex justify-between space-x-10">
+            <!-- first card stats -->
+            <div
+              class="flex flex-col bg-customGray rounded-2xl py-4 px-10 w-[20%] space-y-14"
+            >
+              <div class="bg-[#F9F9F9] p-6 w-[80px] h-[80px] rounded-2xl mt-4">
+                <img src="/img/icons/clarity_list-line.png" alt="icon" />
+              </div>
+
+              <div>
+                <p class="text-lg text-[#535353]">Total Orders</p>
+                <div class="flex items-center space-x-2">
+                  <span class="text-3xl font-bold">500</span>
+                  <div class="flex items-start justify-start">
+                    <img
+                      src="/img/icons/akar-icons_arrow-up.png"
+                      class="h-4 w-4"
+                      alt="icon"
+                    />
+                    <span class="text-[#00B728] -mt-1">10%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second card stats -->
+            <div
+              class="flex flex-col bg-customGray rounded-2xl py-4 px-10 w-[20%] space-y-14"
+            >
+              <div class="bg-[#F9F9F9] p-6 w-[80px] h-[80px] rounded-2xl mt-4">
+                <img
+                  src="/img/icons/clarity_list-outline-badged.png"
+                  alt="icon"
+                />
+              </div>
+
+              <div>
+                <p class="text-lg text-[#535353]">New Orders</p>
+                <div class="flex items-center space-x-2">
+                  <span class="text-3xl font-bold">500</span>
+                  <div class="flex items-start justify-start">
+                    <img
+                      src="/img/icons/akar-icons_arrow-up.png"
+                      class="h-4 w-4"
+                      alt="icon"
+                    />
+                    <span class="text-[#00B728] -mt-1">10%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Third card stats -->
+            <div
+              class="flex flex-col bg-customGray rounded-2xl py-4 px-10 w-[20%] space-y-14"
+            >
+              <div class="bg-[#F9F9F9] p-6 w-[80px] h-[80px] rounded-2xl mt-4">
+                <img src="/img/icons/akar-icons_person.png" alt="icon" />
+              </div>
+
+              <div>
+                <p class="text-lg text-[#535353]">Total Customers</p>
+                <div class="flex items-center space-x-2">
+                  <span class="text-3xl font-bold">500</span>
+                  <div class="flex items-start justify-start">
+                    <img
+                      src="/img/icons/akar-icons_arrow-down.png"
+                      class="h-4 w-4"
+                      alt="icon"
+                    />
+                    <span class="text-[#FF2E00] -mt-1">10%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- first card stats -->
+            <div
+              class="flex flex-col bg-customGray rounded-2xl py-4 px-10 w-[20%] space-y-14"
+            >
+              <div class="bg-[#F9F9F9] p-6 w-[80px] h-[80px] rounded-2xl mt-4">
+                <img src="/img/icons/akar-icons_person-add.png" alt="icon" />
+              </div>
+
+              <div>
+                <p class="text-lg text-[#535353]">New Customers</p>
+                <div class="flex items-center space-x-2">
+                  <span class="text-3xl font-bold">500</span>
+                  <div class="flex items-start justify-start">
+                    <img
+                      src="/img/icons/akar-icons_arrow-up.png"
+                      class="h-4 w-4"
+                      alt="icon"
+                    />
+                    <span class="text-[#00B728] -mt-1">10%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- first card stats -->
+            <div
+              class="flex flex-col bg-customGray rounded-2xl py-4 px-10 w-[20%] space-y-14"
+            >
+              <div class="bg-[#F9F9F9] p-6 w-[80px] h-[80px] rounded-2xl mt-4">
+                <img src="/img/icons/bxs_map.png" alt="icon" />
+              </div>
+
+              <div>
+                <p class="text-lg text-[#535353]">Order Countries</p>
+                <div class="flex items-center space-x-2">
+                  <span class="text-3xl font-bold">500</span>
+                  <div class="flex items-start justify-start">
+                    <img
+                      src="/img/icons/akar-icons_arrow-up.png"
+                      class="h-4 w-4"
+                      alt="icon"
+                    />
+                    <span class="text-[#00B728] -mt-1">10%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br /><br />
+          <!-- Row 1 -->
+          <div class="flex items-center w-full border border-customGray bg-[#EAEAEA] rounded-lg space-x-14">
+            <div class="w-1/6">
+                <img src="/img/la-miko-3754698.jpg" class="w-full rounded-l-lg" alt="image">
+            </div>
+            
+            <div class="w-1/6 space-y-2">
+                <h6 class="text-gray-700 text-xl">Cool Hoodies</h6>
+                <h6 class="font-bold text-lg text-gray-700">15</h6>
+            </div>
+
+            <div class="w-1/6 space-y-3">
+                <h6 class="text-gray-700 text-xl">Customers</h6>
+                <h6 class="font-bold text-lg text-gray-700">15</h6>
+            </div>
+
+            <div class="w-1/6 space-y-3">
+                <h6 class="text-gray-700 text-xl">Top Customers</h6>
+                <div class="flex">
+                    <img src="/img/business-woman-by-window.jpg" class="w-10 h-10 rounded-full" alt="profile">
+                    <img src="/img/delighted-african-american-male-with-positive.jpg" class="w-10 h-10 rounded-full -ml-2" alt="profile">
+                </div>
+            </div>
+            <div class="w-1/6 space-y-3">
+                <h6 class="text-gray-700 text-xl">Top Location</h6>
+                <h6 class="font-bold text-lg text-gray-700">Lilongwe, Malawi</h6>
+            </div>
+            <div class="w-1/6 flex justify-center items-center">
+                <div class="flex space-x-1">
+                    <div class="w-2 h-2 bg-[#595959] rounded-full"></div>
+                    <div class="w-2 h-2 bg-[#595959] rounded-full"></div>
+                    <div class="w-2 h-2 bg-[#595959] rounded-full"></div>
+                  </div>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="flex items-center w-full border border-customGray bg-[#EAEAEA] rounded-lg space-x-14">
+            <div class="w-1/6">
+                <a href="/single_order.html"><img src="/img/bff-printed-red-hoodie_53876-105408.jpg" class="w-full rounded-l-lg" alt="image"></a>
+            </div>
+            
+            <div class="w-1/6 space-y-2">
+                <h6 class="text-gray-700 text-xl">Cool Hoodies</h6>
+                <h6 class="font-bold text-lg text-gray-700">15</h6>
+            </div>
+
+            <div class="w-1/6 space-y-3">
+                <h6 class="text-gray-700 text-xl">Customers</h6>
+                <h6 class="font-bold text-lg text-gray-700">15</h6>
+            </div>
+
+            <div class="w-1/6 space-y-3">
+                <h6 class="text-gray-700 text-xl">Top Customers</h6>
+                <div class="flex">
+                    <img src="/img/african-american-woman.jpg" class="w-10 h-10 rounded-full" alt="profile">
+                    <img src="/img/education-knowledge-people.jpg" class="w-10 h-10 rounded-full -ml-2" alt="profile">
+                </div>
+            </div>
+            <div class="w-1/6 space-y-3">
+                <h6 class="text-gray-700 text-xl">Top Location</h6>
+                <h6 class="font-bold text-lg text-gray-700">Lilongwe, Malawi</h6>
+            </div>
+            <div class="w-1/6 flex justify-center items-center">
+                <div class="flex space-x-1">
+                    <div class="w-2 h-2 bg-[#595959] rounded-full"></div>
+                    <div class="w-2 h-2 bg-[#595959] rounded-full"></div>
+                    <div class="w-2 h-2 bg-[#595959] rounded-full"></div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./dist/script.js"></script>
+  </body>
+</html>
